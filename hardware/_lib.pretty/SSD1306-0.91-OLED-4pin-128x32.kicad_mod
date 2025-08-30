@@ -6,6 +6,7 @@
 	(property "Reference" "REF**"
 		(at 1.9 5.91 90)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "1c16a632-ff0b-435c-bb8a-b7df74e4ef33")
 		(effects
 			(font
@@ -51,34 +52,14 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start 0 0)
-		(end 0 12)
-		(stroke
-			(width 0.04)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "8750679a-15dd-4323-864a-1e3a1ae8a591")
-	)
-	(fp_line
 		(start 0 12)
 		(end 38 12)
 		(stroke
 			(width 0.04)
-			(type solid)
+			(type dash_dot)
 		)
 		(layer "F.SilkS")
 		(uuid "6b8bdfd6-89df-442e-9f05-adb2f3f81e40")
-	)
-	(fp_line
-		(start 3.5 0)
-		(end 3.5 12)
-		(stroke
-			(width 0.04)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "99b42cf0-846d-4224-b54a-0eb1838ecfde")
 	)
 	(fp_line
 		(start 33 0)
@@ -95,7 +76,7 @@
 		(end 0 0)
 		(stroke
 			(width 0.04)
-			(type solid)
+			(type dash_dot)
 		)
 		(layer "F.SilkS")
 		(uuid "ce0d89a4-a052-4c24-aa43-ef49018a2d28")

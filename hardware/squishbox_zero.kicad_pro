@@ -48,11 +48,36 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "items_not_allowed|121302209|111082423|4c22f98d-b585-4f5f-94ad-1ffbcaa99b4b|00000000-0000-0000-0000-000000000000",
+          "Keepout for Mask Only"
+        ],
+        [
+          "items_not_allowed|179302831|111080645|0c0b2109-639b-4221-a871-d08f9fd78dcd|00000000-0000-0000-0000-000000000000",
+          "Keepout for Mask Only"
+        ],
+        [
+          "solder_mask_bridge|118276293|110386711|4f88c59e-9a1c-4cc2-a034-c514cd4a3a95|4c22f98d-b585-4f5f-94ad-1ffbcaa99b4b",
+          "Passed for Mounts"
+        ],
+        [
+          "solder_mask_bridge|122417524|114525795|37ebc659-bf87-46ea-8a79-f664f3743067|4c22f98d-b585-4f5f-94ad-1ffbcaa99b4b",
+          "Passed  for mounts"
+        ],
+        [
+          "solder_mask_bridge|177425701|114356595|057a088c-7b57-4eb0-86ae-6b255cee5998|0c0b2109-639b-4221-a871-d08f9fd78dcd",
+          "Passed for Mounts"
+        ],
+        [
+          "solder_mask_bridge|177425701|114356595|c79cd891-5b5a-4ed4-a3be-bc6e266f241b|0c0b2109-639b-4221-a871-d08f9fd78dcd",
+          "Passed for Mounts"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -60,7 +85,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "creepage": "error",
@@ -120,7 +145,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
@@ -478,8 +503,8 @@
       {
         "bus_width": 12,
         "clearance": 0.15,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.35,
+        "diff_pair_gap": 0.154,
+        "diff_pair_width": 0.77,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
