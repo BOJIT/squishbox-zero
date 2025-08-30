@@ -478,23 +478,6 @@
       {
         "bus_width": 12,
         "clearance": 0.15,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.3,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Diff_100_Ohm",
-        "pcb_color": "rgb(0, 194, 194)",
-        "priority": 0,
-        "schematic_color": "rgb(0, 194, 194)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.15,
         "diff_pair_gap": 0.2,
         "diff_pair_width": 0.35,
         "line_style": 0,
@@ -502,26 +485,9 @@
         "microvia_drill": 0.1,
         "name": "Diff_90_Ohm",
         "pcb_color": "rgb(194, 0, 194)",
-        "priority": 1,
+        "priority": 0,
         "schematic_color": "rgb(194, 0, 194)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Single_50_Ohm",
-        "pcb_color": "rgb(255, 153, 0)",
-        "priority": 2,
-        "schematic_color": "rgb(255, 153, 0)",
-        "track_width": 0.37,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -534,16 +500,8 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Diff_100_Ohm",
-        "pattern": "*ETH_D_*"
-      },
-      {
         "netclass": "Diff_90_Ohm",
         "pattern": "*USB_D_*"
-      },
-      {
-        "netclass": "Single_50_Ohm",
-        "pattern": "*PPS*"
       }
     ]
   },
@@ -666,10 +624,6 @@
     [
       "c29659fd-9e8d-4714-a690-4e74e6e849c2",
       "Root"
-    ],
-    [
-      "d2b956a3-00a9-48b7-8cb3-73eb2c9d7f4d",
-      "USB"
     ]
   ],
   "text_variables": {}
