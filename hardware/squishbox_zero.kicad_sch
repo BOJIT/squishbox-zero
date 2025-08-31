@@ -4071,16 +4071,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "COG"
-		(exclude_from_sim no)
-		(at 242.57 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "89143ab8-cf60-4aa4-abe0-dcb6d1c1084b")
-	)
 	(junction
 		(at 193.04 66.04)
 		(diameter 0)
@@ -6463,7 +6453,7 @@
 		(at 35.56 116.84 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "01de2caf-7772-44ab-ba84-63e0bdd1abf0")
@@ -7405,7 +7395,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C25092"
 			(at 101.6 127 0)
 			(effects
 				(font
@@ -7600,7 +7590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 240.9952 97.79 0)
 			(effects
 				(font
@@ -7627,7 +7617,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C28260"
 			(at 240.03 93.98 0)
 			(effects
 				(font
@@ -8071,7 +8061,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C25117"
 			(at 226.06 82.55 0)
 			(effects
 				(font
@@ -8630,6 +8620,15 @@
 			)
 		)
 		(property "Description" "USB Type A connector"
+			(at 152.4 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C42474"
 			(at 152.4 163.83 0)
 			(effects
 				(font
@@ -9241,7 +9240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 233.9848 97.79 0)
 			(effects
 				(font
@@ -9268,7 +9267,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C28260"
 			(at 234.95 93.98 0)
 			(effects
 				(font
@@ -9655,6 +9654,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C668606"
+			(at 259.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "R1"
 			(uuid "3df38c3a-924f-4b07-8efe-1c2c6bf92ead")
 		)
@@ -9736,7 +9744,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C25092"
 			(at 101.6 123.19 0)
 			(effects
 				(font
@@ -10262,7 +10270,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C25117"
 			(at 226.06 85.09 0)
 			(effects
 				(font
@@ -10333,6 +10341,15 @@
 			)
 		)
 		(property "Description" "2.1 VRMS, 112dB Audio Stereo DAC with PLL and 32-bit, 384kHz PCM Interface, TSSOP-20"
+			(at 186.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C107671"
 			(at 186.69 92.71 0)
 			(effects
 				(font
@@ -10492,7 +10509,7 @@
 		(at 54.61 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10801,7 +10818,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C25092"
 			(at 38.1 153.67 0)
 			(effects
 				(font
